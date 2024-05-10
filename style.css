@@ -1,0 +1,9 @@
+h2{
+    text-align: center;
+}
+.calc{
+    max-width: 230px;
+    margin: auto;
+    padding: 40px 10px 10px 10px;
+    background: #d5d5d5;
+}
