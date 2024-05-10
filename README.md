@@ -1,6 +1,6 @@
 ## Simple calculator with F#
 
-This is a simple calculator web application built with F# and WebSharper, you can [try out this app here](https://bhavik9085.github.io/calc_with_fsharp/).
+This is a simple calculator web application built with F# and WebSharper, you can [try out this app here](https://bhavik9085.github.io/calc_with_fsharp/){:target="_blank"}.
 
 ### Screenshot
 ![Screenshot](ss.jpg)
