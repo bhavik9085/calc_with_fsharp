@@ -14,7 +14,7 @@ module Calculator =
 module Client =
 
     open System.Data
-    type IndexTemplate = Template<"wwwroot/index.html", ClientLoad.FromDocument>
+    type IndexTemplate = Template<"index.html", ClientLoad.FromDocument>
 
     [<SPAEntryPoint>]
     let Main () =

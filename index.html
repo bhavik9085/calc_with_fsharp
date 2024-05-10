@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>abc</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.cdnfonts.com/css/calculator" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="wwwroot/Content/abc.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <style>
+        /* Don't show the not-yet-loaded templates */
+        [ws-template], [ws-children-template] {
+            display: none;
+        }
+    </style>
+    <script type="text/javascript" src="wwwroot/Content/abc.head.js"></script>
+</head>
+<body>
+    <div id="main" ws-children-template="Main">
+        <h2>Calculator</h2>
+        <div class="calc">
+            <!-- <p>wholeEq - ${WholeEq}</p>
+    <p>lastEq - ${LastEq}</p>
+    <p>showingResult - ${ShowingResult}</p> -->
+            <div id="display">${Display}</div>
+            <div class="buttons">
+                <div class="row">
+                    <button id="btn7" ws-onclick="Click" class="7">7</button>
+                    <button id="btn8" ws-onclick="Click" class="8">8</button>
+                    <button id="btn9" ws-onclick="Click" class="9">9</button>
+                    <button id="btnMultiply" ws-onclick="Click" class="*">*</button>
+                </div>
+                <div class="row">
+                    <button id="btn4" ws-onclick="Click" class="4">4</button>
+                    <button id="btn5" ws-onclick="Click" class="5">5</button>
+                    <button id="btn6" ws-onclick="Click" class="6">6</button>
+                    <button id="btnMinus" ws-onclick="Click" class="-">-</button>
+                </div>
+                <div class="row">
+                    <button id="btn1" ws-onclick="Click" class="1">1</button>
+                    <button id="btn2" ws-onclick="Click" class="2">2</button>
+                    <button id="btn3" ws-onclick="Click" class="3">3</button>
+                    <button id="btnPlus" ws-onclick="Click" class="+">+</button>
+                </div>
+                <div class="row">
+                    <button id="btn0" ws-onclick="Click" class="0">0</button>
+                    <button id="btnEqual" ws-onclick="Click" class="=">=</button>
+                    <button id="btnDivide" ws-onclick="Click" class="/">/</button>
+                    <button id="btnClear" ws-onclick="Click" class="ac">AC</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="wwwroot/Content/abc.min.js"></script>
+</body>
+</html>
