@@ -19,6 +19,6 @@ The calculator uses F# for the backend logic and WebSharper for the frontend UI.
 
 The application uses several functions to handle user interaction and perform calculations. Here's a brief description of some of the important functions:
 
-* formatNum: This function formats a number to a scientific notation if the number exceeds a certain length.
-* eval: This function takes a mathematical expression as a string and evaluates it using the MathJS library.
-* Click: This function is an event handler that is triggered when a button is clicked. It performs different actions depending on the clicked button.
+* `formatNum`: This function formats a number to a scientific notation if the number exceeds a certain length.
+* `eval`: This function takes a mathematical expression as a string and evaluates it using the MathJS library.
+* `Click`: This function is an event handler that is triggered when a button is clicked. It performs different actions depending on the clicked button.
